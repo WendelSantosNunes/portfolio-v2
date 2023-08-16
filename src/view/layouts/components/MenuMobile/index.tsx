@@ -1,20 +1,9 @@
-// import { useEffect } from "react";
 import { XCircle, List } from "@phosphor-icons/react";
 
 interface view {
    menuIsVisible: boolean;
    setMenuIsVisible: React.Dispatch<React.SetStateAction<boolean>>;
 }
-
-// color: #fff;
-// font-size: 20px;
-// padding: 15px 20px;
-// border-radius: 10px;
-// transition: background-color 0.2s ease-in-out;
-
-// &:hover{
-//   background-color: ${({ theme }) => theme.colors.text};
-// }
 
 export function MenuMobile({ menuIsVisible, setMenuIsVisible }: view) {
    return (

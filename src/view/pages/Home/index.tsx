@@ -1,7 +1,9 @@
+import { Presentation } from "../../components/Presentation";
+
 export function Home() {
    return (
-      <>
-         <h1>Home</h1>
-      </>
+      <div className="max-w-tela w-full h-full m-auto">
+         <Presentation />
+      </div>
    );
 }
