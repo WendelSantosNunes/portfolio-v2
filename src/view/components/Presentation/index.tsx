@@ -18,12 +18,7 @@ export function Presentation() {
                   rel="noreferrer"
                   className="flex items-center border-2 py-2 px-5 rounded-lg border-color-border-1 hover:bg-color-border-1"
                >
-                  <LinkedinLogo
-                     size={32}
-                     weight="fill"
-                     // color="#fff"
-                     // className="absolute top-4 right-4 origin-center rotate-180 transition-all duration-500 cursor-pointer"
-                  />
+                  <LinkedinLogo size={32} weight="fill" />
                   <p>Linkedin</p>
                </a>
                <a
@@ -32,12 +27,7 @@ export function Presentation() {
                   rel="noreferrer"
                   className="flex items-center border-2 py-2 px-5 rounded-lg border-white hover:bg-white hover:text-black"
                >
-                  <GithubLogo
-                     size={32}
-                     weight="fill"
-                     // color="#fff"
-                     // className="absolute top-4 right-4 origin-center rotate-180 transition-all duration-500 cursor-pointer"
-                  />
+                  <GithubLogo size={32} weight="fill" />
                   <p>GitHub</p>
                </a>
             </div>

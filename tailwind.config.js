@@ -12,6 +12,7 @@ export default {
       width: {
          '128': '42rem',
          'presetation': '57.25rem',
+         'about-text': '34rem'
       },
       maxWidth:{
          'tela': '70rem', 
