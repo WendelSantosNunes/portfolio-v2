@@ -4,9 +4,9 @@ import { GithubLogo, LinkedinLogo, Envelope } from "@phosphor-icons/react";
 export function About() {
    return (
       <div className="mt-28 text-white px-4 " id="secao1">
-         <h1 className="text-center text-4xl max-sm:text-3xl font-bold">
+         <h2 className="text-center text-4xl max-sm:text-3xl font-bold">
             Sobre <span className="text-color-tertiary">.</span>
-         </h1>
+         </h2>
          <div className="flex mt-20 justify-between max-md:flex-wrap-reverse max-md:justify-center">
             <div className="w-about-text text-justify max-md:mt-4">
                <p className="mb-5">
