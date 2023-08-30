@@ -18,7 +18,7 @@ export function Header() {
             <nav className="text-white w-96 max-sm:invisible max-sm:opacity-0 max-sm:hidden">
                <ul className="flex justify-between">
                   <li>
-                     <a href="#secao1" className="">
+                     <a href="#secao1">
                         <strong className="relative transition-all w-min-content before:w-0 before:h-1 before:absolute before:bottom-[-6px] before:right-0 before:origin-left before:left-0 before:transition-all before:duration-500 hover:before:w-full hover:before:left-0 hover:before:bg-color-tertiary">
                            Sobre
                         </strong>

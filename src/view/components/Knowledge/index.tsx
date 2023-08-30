@@ -3,7 +3,7 @@ import { cardKnowledge } from "../../../data/knowledge";
 export function Knowledge() {
    return (
       <div className="mt-28 text-white px-4" id="secao2">
-         <h2 className="text-center text-4xl max-sm:text-3xl font-bold mb-16">
+         <h2 className="text-4xl max-sm:text-3xl font-bold mb-16">
             Conhecimentos <span className="text-color-tertiary">.</span>
          </h2>
          {/* <div className="flex justify-between flex-wrap gap-y-8"> */}
