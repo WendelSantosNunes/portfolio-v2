@@ -2,6 +2,7 @@ import { About } from "../../components/About";
 import { Knowledge } from "../../components/Knowledge";
 import { Presentation } from "../../components/Presentation";
 import { Experience } from "../../components/Experience";
+import { Project } from "../../components/Project";
 
 export function Home() {
    return (
@@ -10,6 +11,7 @@ export function Home() {
          <About />
          <Knowledge />
          <Experience />
+         <Project />
       </main>
    );
 }
