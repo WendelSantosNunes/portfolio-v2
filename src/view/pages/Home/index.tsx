@@ -3,6 +3,7 @@ import { Knowledge } from "../../components/Knowledge";
 import { Presentation } from "../../components/Presentation";
 import { Experience } from "../../components/Experience";
 import { Project } from "../../components/Project";
+import { Certificates } from "../../components/Certificates";
 
 export function Home() {
    return (
@@ -12,6 +13,7 @@ export function Home() {
          <Knowledge />
          <Experience />
          <Project />
+         <Certificates />
       </main>
    );
 }

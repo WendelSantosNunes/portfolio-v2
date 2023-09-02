@@ -6,7 +6,7 @@ export function Project() {
          <h2 className="text-4xl max-sm:text-3xl font-bold mb-16">
             Projetos <span className="text-color-tertiary">.</span>
          </h2>
-         <div className="grid gap-4 grid-cols-3 max-[1100px]:grid-cols-2 max-md:grid-cols-1 ">
+         <div className="grid gap-4 grid-cols-3 max-[1100px]:grid-cols-2 max-md:grid-cols-1">
             {project &&
                project.map((item, index) => {
                   return (
