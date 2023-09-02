@@ -4,6 +4,7 @@ import { Presentation } from "../../components/Presentation";
 import { Experience } from "../../components/Experience";
 import { Project } from "../../components/Project";
 import { Certificates } from "../../components/Certificates";
+import { Contact } from "../../components/Contact";
 
 export function Home() {
    return (
@@ -14,6 +15,7 @@ export function Home() {
          <Experience />
          <Project />
          <Certificates />
+         <Contact />
       </main>
    );
 }
